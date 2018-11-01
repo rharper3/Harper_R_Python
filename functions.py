@@ -24,7 +24,8 @@ myNumberVariable = 10
 # returning values from functions (very powerful)
 def someMath(num1=2, num2=4):
     global myNumberVariable
-
+# if you want to use soemthing that is declared
+# in a golbal scope you have to use a gobal tag
     myNumberVariable = num1 + num2
     return num1 + num2
 
